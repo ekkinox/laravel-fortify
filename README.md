@@ -48,7 +48,7 @@ php artisan migrate
 
 ## Usage
 
-To start the application:
+Start the application:
 
 ```shell
 php artisan serve
