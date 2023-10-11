@@ -14,7 +14,7 @@
 - users can also regenerate two factor recovery codes on their profile
 - after login, two factor challenge will be performed (with TOTP or recovery code)
 
-## Set up
+## Installation
 
 Composer install:
 
