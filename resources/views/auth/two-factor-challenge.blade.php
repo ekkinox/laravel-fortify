@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div class="mb-4 text-sm text-gray-600">
-        {{ __('Please enter your 2 factor authentication code before continuing.') }}
+        {{ __('Please enter your two factor authentication code.') }}
     </div>
 
     <form method="POST" action="{{ route('two-factor.login') }}">
@@ -22,8 +22,10 @@
         </div>
     </form>
 
+    <br/>
+
     <div class="mb-4 text-sm text-gray-600">
-        {{ __('You can also use your 2 factor authentication recovery codes.') }}
+        {{ __('You can also use a two factor authentication recovery code.') }}
     </div>
 
     <form method="POST" action="{{ route('two-factor.login') }}">
