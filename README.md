@@ -56,4 +56,4 @@ php artisan serve
 
 The application will be available on [http://localhost:8000/](http://localhost:8000/).
 
-You can then register an account, and try two factor authentication features.
+You can then register an account, and enable two factor authentication on your [account profile](http://localhost:8000/profile).
