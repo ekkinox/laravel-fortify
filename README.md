@@ -28,13 +28,13 @@ Create `.env` file:
 cp .env.example .env
 ```
 
-Create SQLite database:
+Create the SQLite database:
 
 ```shell
 touch database/database.sqlite
 ```
 
-Change `DB_DATABASE` in `.env` file (specify absolute path):
+Change `DB_DATABASE` value in `.env` file (absolute path):
 
 ```yaml
 DB_DATABASE=/your/absolute/path/to/database/database.sqlite
@@ -52,4 +52,6 @@ php artisan migrate
 php artisan serve
 ```
 
-Application will be available on [http://localhost:8000/](http://localhost:8000/).
+The application will be available on [http://localhost:8000/](http://localhost:8000/).
+
+You can then register an account, and try two factor authentication features.
