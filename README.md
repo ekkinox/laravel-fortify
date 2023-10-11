@@ -10,10 +10,22 @@ Composer install:
 composer install
 ```
 
+Create `.env` file:
+
+```shell
+cp .env.example .env
+```
+
 Create SQLite database:
 
 ```shell
 touch database/database.sqlite
+```
+
+Change `DB_DATABASE` in `.env` file (specify absolute path):
+
+```yaml
+DB_DATABASE=/your/path/to/database/database.sqlite
 ```
 
 Create the database schema:
