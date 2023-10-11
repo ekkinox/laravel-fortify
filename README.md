@@ -2,6 +2,18 @@
 
 > Laravel fortify example with two factor authentication.
 
+<!-- TOC -->
+* [Features](#features)
+* [Set up](#set-up)
+* [Usage](#usage)
+<!-- TOC -->
+
+## Features
+
+- users can enable or disable two factor authentication on their profile
+- users can also regenerate two factor recovery codes on their profile
+- after login, two factor challenge will be performed (with TOTP or recovery code)
+
 ## Set up
 
 Composer install:
