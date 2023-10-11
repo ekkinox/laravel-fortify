@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 * [Features](#features)
-* [Set up](#set-up)
+* [Installation](#installation)
 * [Usage](#usage)
 <!-- TOC -->
 
