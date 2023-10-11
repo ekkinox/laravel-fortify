@@ -2,7 +2,7 @@
 
 > Laravel fortify example with two factor authentication.
 
-## Install
+## Set up
 
 Composer install:
 
@@ -14,6 +14,12 @@ Create SQLite database:
 
 ```shell
 touch database/database.sqlite
+```
+
+Create the database schema:
+
+```shell
+php artisan migrate
 ```
 
 ## Usage
