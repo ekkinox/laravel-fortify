@@ -25,7 +25,7 @@ touch database/database.sqlite
 Change `DB_DATABASE` in `.env` file (specify absolute path):
 
 ```yaml
-DB_DATABASE=/your/path/to/database/database.sqlite
+DB_DATABASE=/your/absolute/path/to/database/database.sqlite
 ```
 
 Create the database schema:
