@@ -1,4 +1,4 @@
-# Laravel fortify
+# Laravel Fortify
 
 > Laravel fortify example with two factor authentication.
 
